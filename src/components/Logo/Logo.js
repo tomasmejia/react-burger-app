@@ -6,7 +6,7 @@ import classes from './Logo.css';
 
 const Logo = props => {
     return (
-        <div className={classes.Logo} style={{height: props.height}}>
+        <div className={classes.Logo} style={{height: props.height, marginBottom: props.mb}}>
             <img src={burgerLogo} alt="myBurger" srcset="" />
         </div>
     )
